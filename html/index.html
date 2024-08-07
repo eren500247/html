@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External CSS</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <a href="contact.html">Contact</a>
+    <a href="register.html">Register</a>
+    <a href="#hello1">hello1</a>
+    <a href="#hello2">Hello2</a>
+    <h1>Mandalay Software Institute</h1>
+    <p class="tagline borderbox">
+      <i><strong>Jump-start your developer life here! 🧑‍💻</strong></i>
+    </p>
+    <p class="courses tagline">Available Course : </p>
+
+    <div class="box" onclick="displayResult()">
+        Hello
+    </div>
+
+    <button onclick="displayResult()">Change Text</button>
+
+    <h2 id="hello1">Hello World 1</h2>
+    <h2 id="hello2">Hello World 2</h2>
+    <script>
+        function displayResult(){
+            document.getElementById("hello1").innerHTML = "Have a nice day!";
+        }
+    </script>
+  </body>
+</html>
