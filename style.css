@@ -1,0 +1,9 @@
+h1{
+    color: white;
+}
+div{
+    color: white;
+    border: 2px solid black;
+    height: 300px;
+    border-radius: 3px;
+}
